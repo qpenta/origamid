@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  background-color: #111;
+  border-radius: 4px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+h2,
+p {
+  color: white;
+}
+
+.button {
+  size: 20px;
+}
+
+.yellow {
+  color: yellow;
+}
+
+button {
+  background-color: yellow;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.yellow {
+  color: yellow;
+}
