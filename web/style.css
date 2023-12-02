@@ -1,40 +1,37 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 60px;
+  margin: 50px;
+}
+
+h2 {
+  margin: 0px;
 }
 
 h1 {
   text-align: center;
 }
 
-div {
-  background-color: #111;
+.item {
+  background: #111;
+  padding: 30px;
+  margin: 20px;
   border-radius: 4px;
-  padding: 40px;
-  margin-bottom: 30px;
+  color: #fff;
 }
 
-h2,
+span {
+  color: #febe01;
+}
+
 p {
-  color: white;
+  color: #b2b2b2;
 }
 
-.button {
-  size: 20px;
-}
-
-.yellow {
-  color: yellow;
-}
-
-button {
-  background-color: yellow;
-  font-size: 20px;
+a {
+  background: #febe01;
+  color: #332100;
+  text-decoration: none;
   padding: 10px;
   border-radius: 4px;
-  font-weight: bold;
-}
-
-.yellow {
-  color: yellow;
+  display: inline-block;
 }
