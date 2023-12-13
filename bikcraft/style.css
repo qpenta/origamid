@@ -24,12 +24,57 @@ body {
   font-size: 20px;
 }
 
-.conteudo {
+.grid_container {
   display: grid;
-  background-color: aqua;
-  grid-template-columns: 200px 200px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1300px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: white;
 }
 
-.conteudo img {
-  max-width: 600px;
+.col2 img {
+  max-width: 650px;
+}
+
+.col1 {
+  padding: 60px;
+}
+.col1 p {
+  font-size: 20px;
+}
+
+.col1 a {
+  text-decoration: none;
+  background-color: #ee2211;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: white;
+  text-align: end;
+}
+
+.grid_container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1300px;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.col1_grid2 h1 {
+  font-size: 64px;
+  text-align: end;
+  color: #c6c6c6;
+}
+
+.col2_grid2 {
+  padding: 40px;
+}
+
+.col2_grid2 p {
+  font-size: 20px;
 }
