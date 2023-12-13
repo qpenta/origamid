@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  background-color: #f7f7f7;
+}
+
+.logo {
+  text-align: center;
+  padding: 30px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.menu a {
+  background-color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 4px;
+  color: black;
+  font-size: 20px;
+}
+
+.conteudo {
+  display: grid;
+  background-color: aqua;
+  grid-template-columns: 200px 200px;
+}
+
+.conteudo img {
+  max-width: 600px;
+}
