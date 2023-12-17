@@ -40,6 +40,10 @@ p {
   justify-content: center;
 }
 
+.menu a:hover {
+  border: 2px solid #e21;
+}
+
 .bikcraft {
   max-width: 100%;
   display: block;
@@ -134,4 +138,8 @@ footer {
 
 .lista li:nth-child(odd) {
   background-color: #f7f7f7;
+}
+
+.lista li:hover {
+  border-left: solid 2px #e21;
 }
